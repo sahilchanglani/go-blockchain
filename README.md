@@ -1,11 +1,11 @@
 # Golang Blockchain
 
-### In this tutorial, we add persistence via BadgerDB and a Command Line interface to our blockchain application. 
+### How to Run?
 
-## Run `go run main.go` to run the app, run `go build main.go` to build an executable file.
+Run `git clone https://github.com/sahilchanglani/go-blockchain.git` to install the project.
 
-### Check out the Youtube Tutorial for this [Go Program](https://youtu.be/szOZ3p-5YIc). Here is our [Youtube Channel](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) Subscribe for more content.
+Run `go run main.go` to run the app (It will initialize the blockchain with the genesis block).
 
-### Check out our blog at [tensor-programming.com](http://tensor-programming.com/).
+Run `go run main.go add -block {block data}` to add the block with the specified data (data could be any string).
 
-### Our [Twitter](https://twitter.com/TensorProgram), our [facebook](https://www.facebook.com/Tensor-Programming-1197847143611799/) and our [Steemit](https://steemit.com/@tensor).
+Run 'go run main.go print` to print the blockchain.
